@@ -10,6 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: rgb(126, 247, 197);
 }
 
 .container {
@@ -20,8 +21,8 @@ body {
 
 /* Header */
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #8cdb9d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -41,13 +42,13 @@ header .container {
 }
 
 .logo h1 {
-    color: #2c3e50;
+    color: #000101;
     font-size: 2em;
     margin: 0;
 }
 
 .logo p {
-    color: #7f8c8d;
+    color: #000000;
     margin: 0;
 }
 
@@ -61,7 +62,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #2c3e50;
+    color: #000000;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -70,7 +71,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #27ae60;
+    color: #3dc46a;
 }
 
 .menu-toggle {
@@ -89,7 +90,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     margin-top: 80px;
 }
 
@@ -117,16 +118,25 @@ section {
 
 /* Seção de Produtos */
 .products {
-    background-color: #f9f9f9;
-    padding: 80px 0;
+    background: 
+        url('rrrr.jpg');
+    padding: 0px 0;
+    text-align: center; 
 }
 
+
 .products h2 {
-    text-align: center;
-    color: #2c3e50;
+    display: inline-block; /* Faz o fundo ocupar só o texto */
+    background-color: #22cf25;
+    color: #fff9f9;
+    padding: 0px 90px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0px;
     margin-bottom: 40px;
     font-size: 2.5em;
 }
+
 
 .product-grid {
     display: grid;
@@ -137,10 +147,10 @@ section {
 }
 
 .product-card {
-    background: white;
+    background: rgb(126, 247, 197);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(2, 1, 1, 0.1);
     transition: transform 0.3s ease;
     width: 100%;
     max-width: 300px;
@@ -171,13 +181,13 @@ section {
 
 /* Seção Sobre */
 .about {
-    background-color: #f9f9f9;
+    background-color: #70f1b9;
     padding: 100px 0;
 }
 
 .section-title {
     text-align: center;
-    color: #2c3e50;
+    color: #060606;
     font-size: 2.5em;
     margin-bottom: 50px;
     position: relative;
@@ -188,7 +198,7 @@ section {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #27ae60;
+    background-color: #000000;
     margin: 15px auto 0;
 }
 
@@ -200,13 +210,13 @@ section {
 }
 
 .about-text h3 {
-    color: #2c3e50;
+    color: #000000;
     font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 .about-text p {
-    color: #7f8c8d;
+    color: #040606;
     line-height: 1.8;
     margin-bottom: 20px;
 }
@@ -221,7 +231,7 @@ section {
 .feature {
     text-align: center;
     padding: 20px;
-    background: white;
+    background: rgb(195, 252, 250);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
@@ -233,17 +243,17 @@ section {
 
 .feature i {
     font-size: 2.5em;
-    color: #27ae60;
+    color: #5ef722;
     margin-bottom: 15px;
 }
 
 .feature h4 {
-    color: #2c3e50;
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .feature p {
-    color: #7f8c8d;
+    color: #000000;
     font-size: 0.9em;
     margin: 0;
 }
@@ -255,7 +265,7 @@ section {
 .about-image img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(141, 26, 26, 0.1);
 }
 
 /* Contato */
@@ -270,7 +280,7 @@ section {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #c82e2e;
     border-radius: 5px;
 }
 
@@ -303,13 +313,13 @@ footer {
 }
 
 .social-info h3 {
-    color: #2c3e50;
+    color: #000000;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
 
 .social-info p {
-    color: #7f8c8d;
+    color: #000000;
     margin-bottom: 30px;
 }
 
